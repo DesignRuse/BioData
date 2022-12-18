@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/earlyaccess/notosansbengali.css');
+/*@font-face {
+    font-family: 'Noto Sans Bengali';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../vendors/fonts/NotoSansBengali-Regular.ttf) format('truetype');
+}
+ @font-face {
+    font-family: 'Noto Sans Bengali';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../../vendors/fonts/NotoSansBengali-Bold.ttf) format('truetype');
+}
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100vh;
+}
+
+body {
+	overflow-x: hidden;
+    font-family: 'Noto Sans Bengali', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-rendering: optimizeLegibility;
+	height: 100vh;
+	scroll-behavior: smooth;
+}
+
+.row {
+	margin: 0 auto;
+}
+
+/*------------------------------------------*/
+/*-----------HEADINGS-----------------------*/
+/*------------------------------------------*/
+
+h1,
+h2,
+h3 {
+	font-weight: 700;
+	color: #342e37;
+}
+
+h1 {
+	margin: 0;
+	font-size: 2.650rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h2 {
+	display: inline-block;
+	font-size: 2.250rem;
+	font-weight: 600;
+	margin: 0;
+}
+
+h3 {
+	display: block;
+	font-size: 21.0667px;
+	font-weight: 700;
+	margin: 1rem 0;
+}
+
+
+/*------------------------------------------*/
+/*-----------HEADINGS-----------------------*/
+/*------------------------------------------*/
+
+
+/*------------------------------------------*/
+/*-----------PARAGRAPH----------------------*/
+/*------------------------------------------*/
+
+p {
+	display: block;
+	font-weight: 400;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+/*------------------------------------------*/
+/*-----------PARAGRAPH----------------------*/
+/*------------------------------------------*/
+
+
+/*------------------------------------------*/
+/*-----------BORDER COLOURS-----------------*/
+/*------------------------------------------*/
+
+.borderColorGrey {
+	border: 1px solid #ebf2fa;
+}
+/*------------------------------------------*/
+/*-----------BORDER COLOURS-----------------*/
+/*------------------------------------------*/
+
+
+/*------------------------------------------*/
+/*-----------PADDINGS-----------------------*/
+/*------------------------------------------*/
+
+.padding20Pixels {
+	padding: 1.250rem;
+}
+
+.paddingTopNBottom10Pixels {
+	padding: 10px 0 10px 0;
+}
+
+.padding10Pixels {
+	padding: 0.625rem;
+}
+
+.noPadding {
+    padding: 0;
+}
+
+/*------------------------------------------*/
+/*-----------PADDINGS-----------------------*/
+/*------------------------------------------*/
+
+
+/*------------------------------------------*/
+/*-----------MARGINS------------------------*/
+/*------------------------------------------*/
+
+.marginBottom20Pixels {
+	margin-bottom: 20px;
+}
+
+
+/*------------------------------------------*/
+/*-----------MARGINS------------------------*/
+/*------------------------------------------*/
+
+
+/*------------------------------------------*/
+/*-----------CONTENT BOXES------------------*/
+/*------------------------------------------*/
+
+.contentBoxLarge {
+	padding: 20px 20px 80px 20px;
+}
+
+.contentBoxMedium {
+	padding: 70px 0;
+}
+
+
+/*------------------------------------------*/
+/*-----------CONTENT BOXES------------------*/
+/*------------------------------------------*/
+
+
+/*------------------------------------------*/
+/*-----------ICONS--------------------------*/
+/*------------------------------------------*/
+
+.iconBig {
+	font-size: 3.000rem;
+	font-weight: bold;
+	color: #AFCB08;
+	display: block;
+}
+
+.iconMedium {
+	font-size: 1.500rem;
+	font-weight: bold;
+	color: #AFCB08;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.iconSmall {
+	font-size: 1.000rem;
+	font-weight: bold;
+	color: #AFCB08;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.iconSocial {
+	font-size: 1.500rem;
+	font-weight: bold;
+	color: #fffffc;
+}
+
+/*------------------------------------------*/
+/*-----------ICONS--------------------------*/
+/*------------------------------------------*/
+
+#pageWrapper {
+    width: 100%;
+    height: auto;
+    background-color: #EEE;
+    padding: 20px 0;
+}
+
+#card {
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    box-shadow: 0 3px 5px #C1C1C1;
+}
+
+#cardContent {
+    padding: 0;
+}
+
+#header {
+    background-color: #25bba3;
+    padding: 20px 0;
+    border-radius: 5px 5px 0 0;
+}
+
+#header img {
+    display: block;
+    width: auto;
+    height: 300px;
+    border: 3px solid #FFFFFF;
+    margin: 0 auto;
+}
+
+#header ul {
+    list-style-type: none;
+}
+
+#header h1, ul li {
+    color: #FFFFFF;
+}
+
+#header i {
+    color: #FFFFFF;
+    margin-right: 15px;
+}
+
+#sectionPersonalInfo small {
+    display: block;
+    clear: both;
+}
+
+.heading {
+    padding: 0;
+}
+
+.heading h2 {
+    padding-right: 20px;
+    padding-left: 20px;
+    border-top-width: 0;
+    border-right-width: 40px;
+    border-bottom-width: 0;
+    border-left-width: 40px;
+    border-style: solid;
+    border-color: #25bba3;
+}
+
+.heading h2, .bioInfo {
+    background-color: #ffffff;
+    color: #8a8a8a;
+    box-shadow: 0 3px 5px #C1C1C1;
+    border-radius: 5px;
+}
+
+#sectionPersonalInfo h2, h3, p
+#sectionCulturalBackground h2, h3, p,
+#sectionEducation h2, h3, p,
+#sectionProfessionalInfo h2, h3, p,
+#sectionFamilyDetails h2, h3, p,
+#sectionAboutMyFamily h2, h3, p,
+#sectionLifeStyle h2, h3, p,
+#sectionPhoto h2, h3, p {
+    color: #8a8a8a;
+}
+
+#sectionCulturalBackground {
+    
+}
+
+#sectionEducation {
+     
+}
+
+#sectionProfessionalInfo {
+     
+}
+
+#sectionFamilyDetails {
+     
+}
+
+#sectionAboutMyFamily {
+     
+}
+
+#sectionLifeStyle {
+     
+}
+
+#sectionPhoto {
+     
+}
+
+#sectionPhoto img {
+    display: block;
+    width: 50%;
+    height: auto;
+    padding: 5px;
+    border: 1px solid #DCF8C6;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+#footer {
+    background-color: #25bba3;
+    border-radius: 0 0 5px 5px ;
+    margin-top: 20px;
+}
+
+#footer p {
+    color: #FFFFFF;
+}
